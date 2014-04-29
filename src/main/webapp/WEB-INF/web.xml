@@ -8,10 +8,20 @@
   	<servlet-name>LoginView.do</servlet-name>
   	<display-name>LoginView.do</display-name>
   	<description></description>
-  	<servlet-class>loginview.LoginView</servlet-class>
+  	<servlet-class>com.project.loginview.LoginView</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet.do</servlet-name>
+  	<display-name>LoginServlet.do</display-name>
+  	<description></description>
+  	<servlet-class>com.project.loginservlet.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>LoginView.do</servlet-name>
   	<url-pattern>/LoginView.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet.do</servlet-name>
+  	<url-pattern>/LoginServlet.do</url-pattern>
   </servlet-mapping>
 </web-app>

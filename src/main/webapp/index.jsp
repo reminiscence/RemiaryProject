@@ -52,7 +52,7 @@
 		<div class="container">
 			<div class="login_form">
 				<h1 class="login_tit">Remiary.</h1>
-				<form action="#" method="post">
+				<form action="LoginServlet.do" method="post">
 					<div class="sign_up_view">
 						<div class="form_email">
 							<input type="text" class="input-email" placeholder="Email address" />
