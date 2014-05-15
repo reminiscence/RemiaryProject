@@ -5,6 +5,6 @@ import java.sql.*;
 public class DBManager {
 	
 	public void setConnection() {
-		System.out.println("test jenkins 20140515");
+		System.out.println("test jenkins 20140515 - 2");
 	}
 }
